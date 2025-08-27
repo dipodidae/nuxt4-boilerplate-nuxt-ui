@@ -6,6 +6,14 @@ const items = computed(() => [
     label: 'Home',
     to: '/',
   },
+  {
+    label: 'Counter Store',
+    to: '/counter',
+  },
+  {
+    label: 'Pageview API',
+    to: '/pageview',
+  },
 ])
 </script>
 
