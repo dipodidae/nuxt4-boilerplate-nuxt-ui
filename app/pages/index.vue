@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { UPage, UPageHeader } from '#components'
-</script>
-
 <template>
   <UContainer>
     <UPage>

@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import { appName } from '~/constants'
+
 const items = computed(() => [
   {
     label: 'Home',
     to: '/',
   },
-
 ])
 </script>
 
@@ -12,7 +13,7 @@ const items = computed(() => [
   <UHeader>
     <template #left>
       <NuxtLink to="/">
-        <LogoPro class="w-auto h-6 shrink-0" />
+        {{ appName }}
       </NuxtLink>
       <TemplateMenu />
     </template>
