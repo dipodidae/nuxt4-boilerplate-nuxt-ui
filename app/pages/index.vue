@@ -12,22 +12,22 @@
               </h2>
             </template>
 
-            <p class="text-gray-600 dark:text-gray-400 mb-6">
+            <p class="mb-6 text-gray-600 dark:text-gray-400">
               This boilerplate includes everything you need to build modern web applications with Nuxt 4,
               featuring beautiful UI components, state management, and server-side functionality.
             </p>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <UCard class="hover:shadow-lg transition-shadow">
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <UCard class="transition-shadow hover:shadow-lg">
                 <div class="flex items-start gap-4">
-                  <div class="p-2 rounded-lg bg-primary-100 dark:bg-primary-900">
-                    <UIcon name="i-lucide-bar-chart-3" class="w-6 h-6 text-primary" />
+                  <div class="bg-primary-100 dark:bg-primary-900 rounded-lg p-2">
+                    <UIcon name="i-lucide-bar-chart-3" class="text-primary h-6 w-6" />
                   </div>
                   <div class="flex-1">
-                    <h3 class="font-semibold mb-2">
+                    <h3 class="mb-2 font-semibold">
                       Counter Store Demo
                     </h3>
-                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    <p class="mb-3 text-sm text-gray-600 dark:text-gray-400">
                       Explore Pinia state management with a simple counter example.
                       Demonstrates reactive state updates and component composition.
                     </p>
@@ -43,16 +43,16 @@
                 </div>
               </UCard>
 
-              <UCard class="hover:shadow-lg transition-shadow">
+              <UCard class="transition-shadow hover:shadow-lg">
                 <div class="flex items-start gap-4">
-                  <div class="p-2 rounded-lg bg-success-100 dark:bg-success-900">
-                    <UIcon name="i-lucide-activity" class="w-6 h-6 text-success" />
+                  <div class="bg-success-100 dark:bg-success-900 rounded-lg p-2">
+                    <UIcon name="i-lucide-activity" class="text-success h-6 w-6" />
                   </div>
                   <div class="flex-1">
-                    <h3 class="font-semibold mb-2">
+                    <h3 class="mb-2 font-semibold">
                       Server API Integration
                     </h3>
-                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    <p class="mb-3 text-sm text-gray-600 dark:text-gray-400">
                       See how server-side APIs work with real-time pageview tracking.
                       Demonstrates Nitro server functions and data fetching.
                     </p>
@@ -77,29 +77,29 @@
               </h2>
             </template>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-zap" class="w-5 h-5 text-yellow-500" />
+                <UIcon name="i-lucide-zap" class="h-5 w-5 text-yellow-500" />
                 <span class="text-sm">Nuxt 4 with Vite</span>
               </div>
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-palette" class="w-5 h-5 text-purple-500" />
+                <UIcon name="i-lucide-palette" class="h-5 w-5 text-purple-500" />
                 <span class="text-sm">Nuxt UI Components</span>
               </div>
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-database" class="w-5 h-5 text-blue-500" />
+                <UIcon name="i-lucide-database" class="h-5 w-5 text-blue-500" />
                 <span class="text-sm">Pinia State Management</span>
               </div>
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-server" class="w-5 h-5 text-green-500" />
+                <UIcon name="i-lucide-server" class="h-5 w-5 text-green-500" />
                 <span class="text-sm">Nitro Server Functions</span>
               </div>
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-shield-check" class="w-5 h-5 text-red-500" />
+                <UIcon name="i-lucide-shield-check" class="h-5 w-5 text-red-500" />
                 <span class="text-sm">TypeScript First</span>
               </div>
               <div class="flex items-center gap-3">
-                <UIcon name="i-lucide-smartphone" class="w-5 h-5 text-indigo-500" />
+                <UIcon name="i-lucide-smartphone" class="h-5 w-5 text-indigo-500" />
                 <span class="text-sm">PWA Ready</span>
               </div>
             </div>

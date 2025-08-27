@@ -17,6 +17,7 @@
 - 🦾 TypeScript-first
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update
 - 🧹 ESLint and code quality tools pre-configured
+- 🎨 [ESLint Tailwind CSS](https://github.com/francoismassart/eslint-plugin-tailwindcss) — Tailwind CSS best practices and class ordering
 - 🚀 [Commitlint](https://commitlint.js.org/) — Conventional commit messages with git hooks
 - 🪝 [Husky](https://typicode.github.io/husky/) — Git hooks for automated quality checks
 
@@ -28,6 +29,7 @@
 - [VitePWA](https://github.com/vite-pwa/nuxt) — PWA support
 - [Nuxt DevTools](https://github.com/nuxt/devtools) — Enhanced DX
 - [ESLint](https://eslint.org/) — Linting
+- [ESLint Tailwind CSS](https://github.com/francoismassart/eslint-plugin-tailwindcss) — Tailwind CSS linting
 - [Commitlint](https://commitlint.js.org/) — Conventional commits
 - [Husky](https://typicode.github.io/husky/) — Git hooks
 
@@ -70,6 +72,19 @@ chore: update dependencies
 ```
 
 Git hooks are automatically installed via Husky to validate commit messages on `git commit`.
+
+### Tailwind CSS Linting
+
+This project includes ESLint rules for Tailwind CSS to enforce best practices:
+
+- **Class ordering**: Ensures consistent ordering of Tailwind CSS classes
+- **Shorthand enforcement**: Suggests using shorthand classes (e.g., `m-4` instead of `mx-4 my-4`)
+- **Negative arbitrary values**: Enforces proper negative value syntax
+- **Unnecessary arbitrary values**: Warns about arbitrary values that could use standard classes
+
+The configuration is optimized for Tailwind CSS v4 and Nuxt UI compatibility. Custom classes from Nuxt UI are allowed and won't trigger warnings.
+
+Run `pnpm run lint --fix` to automatically fix class ordering and other auto-fixable issues.
 
 ## Inspiration
 

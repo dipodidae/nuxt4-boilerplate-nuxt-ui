@@ -17,8 +17,8 @@ const counter = useCounterStore()
             </h3>
           </template>
 
-          <div class="text-center space-y-4">
-            <div class="text-4xl font-bold text-primary">
+          <div class="space-y-4 text-center">
+            <div class="text-primary text-4xl font-bold">
               {{ counter.count }}
             </div>
 

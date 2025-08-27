@@ -17,6 +17,7 @@ catalogs:
     '@antfu/eslint-config': ^5.2.1
     eslint: ^9.31.0
     eslint-plugin-format: ^1.0.1
+    eslint-plugin-tailwindcss: ^4.0.0-beta.0
     typescript: ^5.8.3
     vue-tsc: ^3.0.1
   frontend:
