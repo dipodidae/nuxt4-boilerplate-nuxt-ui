@@ -9,10 +9,9 @@ useHead({
 <template>
   <VitePwaManifest />
   <UApp>
+    <NuxtLoadingIndicator />
     <NuxtLayout>
-      <UMain class="relative">
-        <NuxtPage />
-      </UMain>
+      <NuxtPage />
     </NuxtLayout>
   </UApp>
 </template>
