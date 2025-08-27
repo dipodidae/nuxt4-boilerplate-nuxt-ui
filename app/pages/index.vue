@@ -7,11 +7,13 @@
         <div class="space-y-8">
           <UCard>
             <template #header>
-              <h2 class="text-xl font-semibold">Welcome to your Nuxt 4 Boilerplate</h2>
+              <h2 class="text-xl font-semibold">
+                Welcome to your Nuxt 4 Boilerplate
+              </h2>
             </template>
-            
+
             <p class="text-gray-600 dark:text-gray-400 mb-6">
-              This boilerplate includes everything you need to build modern web applications with Nuxt 4, 
+              This boilerplate includes everything you need to build modern web applications with Nuxt 4,
               featuring beautiful UI components, state management, and server-side functionality.
             </p>
 
@@ -22,14 +24,16 @@
                     <UIcon name="i-lucide-bar-chart-3" class="w-6 h-6 text-primary" />
                   </div>
                   <div class="flex-1">
-                    <h3 class="font-semibold mb-2">Counter Store Demo</h3>
+                    <h3 class="font-semibold mb-2">
+                      Counter Store Demo
+                    </h3>
                     <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                      Explore Pinia state management with a simple counter example. 
+                      Explore Pinia state management with a simple counter example.
                       Demonstrates reactive state updates and component composition.
                     </p>
-                    <UButton 
-                      to="/counter" 
-                      variant="outline" 
+                    <UButton
+                      to="/counter"
+                      variant="outline"
                       size="sm"
                       trailing-icon="i-lucide-arrow-right"
                     >
@@ -45,14 +49,16 @@
                     <UIcon name="i-lucide-activity" class="w-6 h-6 text-success" />
                   </div>
                   <div class="flex-1">
-                    <h3 class="font-semibold mb-2">Server API Integration</h3>
+                    <h3 class="font-semibold mb-2">
+                      Server API Integration
+                    </h3>
                     <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                      See how server-side APIs work with real-time pageview tracking. 
+                      See how server-side APIs work with real-time pageview tracking.
                       Demonstrates Nitro server functions and data fetching.
                     </p>
-                    <UButton 
-                      to="/pageview" 
-                      variant="outline" 
+                    <UButton
+                      to="/pageview"
+                      variant="outline"
                       size="sm"
                       trailing-icon="i-lucide-arrow-right"
                     >
@@ -66,9 +72,11 @@
 
           <UCard>
             <template #header>
-              <h2 class="text-xl font-semibold">Features Included</h2>
+              <h2 class="text-xl font-semibold">
+                Features Included
+              </h2>
             </template>
-            
+
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <div class="flex items-center gap-3">
                 <UIcon name="i-lucide-zap" class="w-5 h-5 text-yellow-500" />
