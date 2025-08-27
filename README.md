@@ -1,19 +1,10 @@
+# Nuxt 4 Boilerplate with Nuxt UI
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
-</p>
+[![Nuxt UI](https://ui.nuxt.com/social-card.png)](https://ui.nuxt.com/)
 
-<h2 align="center">
-Nuxt 4 Boilerplate with Nuxt UI
-</h2>
+> A modern Nuxt 4 starter template, using [Nuxt UI](https://ui.nuxt.com/) instead of UnoCSS. This boilerplate is designed for rapid prototyping and production-ready Nuxt apps, with batteries included and sensible defaults.
 
-<p align="center">
-	<a href="https://nuxt.com/">🖥 Nuxt Documentation</a>
-</p>
-
----
-
-A modern Nuxt 4 starter template, inspired by [Vitesse Nuxt](https://github.com/antfu/vitesse-nuxt), but using [Nuxt UI](https://ui.nuxt.com/) instead of UnoCSS. This boilerplate is designed for rapid prototyping and production-ready Nuxt apps, with batteries included and sensible defaults.
+**Repo:** [github.com/dipodidae/nuxt4-boilerplate-nuxt-ui](https://github.com/dipodidae/nuxt4-boilerplate-nuxt-ui)
 
 ## Features
 
@@ -46,21 +37,19 @@ We recommend [VS Code](https://code.visualstudio.com/) with [Volar](https://gith
 
 ### Online
 
-You can try Nuxt online at [StackBlitz](https://stackblitz.com/github/antfu/vitesse-nuxt) (uses the original Vitesse Nuxt, but this template is similar).
-
 ### Clone to local
 
-If you want to start a new project with this boilerplate:
+To start a new project with this boilerplate:
 
 ```bash
-npx degit <your-username>/<your-repo> my-nuxt-app
+npx degit dipodidae/nuxt4-boilerplate-nuxt-ui my-nuxt-app
 cd my-nuxt-app
 pnpm i # Or npm install -g pnpm && pnpm i
 ```
 
 Or just copy this repo and start hacking!
 
-## Variations & Inspiration
+## Inspiration
 
 - [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) — The original inspiration
 - [nuxt/ui](https://ui.nuxt.com/) — Nuxt UI documentation
