@@ -15,7 +15,8 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@nuxt/ui-pro": "catalog:frontend"
+    "@nuxt/ui-pro": "catalog:frontend",
+    "zod": "catalog:frontend"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
@@ -33,7 +34,7 @@
     "eslint-plugin-format": "catalog:dev",
     "eslint-plugin-tailwindcss": "catalog:dev",
     "husky": "catalog:build",
-    "nuxt": "catalog:build",
+  "nuxt": "catalog:build",
     "pinia": "catalog:frontend",
     "typescript": "catalog:dev",
     "vue": "catalog:frontend",
