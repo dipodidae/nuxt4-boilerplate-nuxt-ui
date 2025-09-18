@@ -10,7 +10,6 @@ catalogs:
     '@pinia/nuxt': ^0.11.2
     '@vite-pwa/nuxt': ^1.0.4
     '@vueuse/nuxt': ^13.9.0
-    husky: ^9.1.7
     nuxt: ^4.1.2
     unplugin: ^2.3.5
     vite: ^7.0.4
@@ -19,6 +18,8 @@ catalogs:
     eslint: ^9.35.0
     eslint-plugin-format: ^1.0.1
     eslint-plugin-tailwindcss: 4.0.0-beta.0
+    lint-staged: ^15.2.10
+    simple-git-hooks: ^2.11.0
     typescript: ^5.9.2
     vue-tsc: ^3.0.7
   frontend:
@@ -35,5 +36,6 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@tailwindcss/oxide'
   - esbuild
+  - simple-git-hooks
   - unrs-resolver
   - vue-demi

@@ -7,7 +7,6 @@
     "dev:pwa": "VITE_PLUGIN_PWA=true nuxt dev",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "prepare": "nuxt prepare && husky install",
     "preview": "nuxt preview",
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
@@ -33,9 +32,10 @@
     "eslint": "catalog:dev",
     "eslint-plugin-format": "catalog:dev",
     "eslint-plugin-tailwindcss": "catalog:dev",
-    "husky": "catalog:build",
-  "nuxt": "catalog:build",
+    "lint-staged": "catalog:dev",
+    "nuxt": "catalog:build",
     "pinia": "catalog:frontend",
+    "simple-git-hooks": "catalog:dev",
     "typescript": "catalog:dev",
     "vue": "catalog:frontend",
     "vue-tsc": "catalog:dev"
@@ -46,5 +46,14 @@
     "nuxt": "catalog:build",
     "unplugin": "catalog:build",
     "vite": "catalog:build"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "npx commitlint --edit $1"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue,json,md,css,yml}": [
+      "eslint --fix"
+    ]
   }
 }
