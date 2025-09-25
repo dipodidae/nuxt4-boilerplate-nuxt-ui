@@ -1,5 +1,3 @@
-packages: []
-
 catalogs:
   build:
     '@commitlint/cli': ^20.0.0
@@ -13,6 +11,7 @@ catalogs:
     nuxt: ^4.1.2
     unplugin: ^2.3.5
     vite: ^7.0.4
+
   dev:
     '@antfu/eslint-config': ^5.4.1
     eslint: ^9.36.0
@@ -31,9 +30,6 @@ catalogs:
   icons:
     '@iconify-json/carbon': ^1.2.13
     '@iconify-json/twemoji': ^1.2.4
-  conflicts_build_h2_6_5:
-    '@nuxt/devtools': ^2.6.5
-
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@tailwindcss/oxide'
