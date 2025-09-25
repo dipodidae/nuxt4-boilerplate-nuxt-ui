@@ -107,7 +107,7 @@ pnpm dev:pwa
 
 ## 🧩 Nuxt Modules Used
 
-- `@nuxt/ui-pro` – Pro component suite (license required for private/commercial use—see Nuxt UI Pro terms)
+- `@nuxt/ui` – Pro component suite
 - `@pinia/nuxt` – Store auto‑registration
 - `@vueuse/nuxt` – Utility composables (auto‑imports)
 - `@vite-pwa/nuxt` – PWA manifest + Workbox runtime caching
